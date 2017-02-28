@@ -495,7 +495,7 @@
         }
       }
 
-      if (remote) {
+      /*if (remote) {
         nonBlankFileInputs = rails.nonBlankInputs(form, rails.fileInputSelector);
         if (nonBlankFileInputs) {
           // Slight timeout so that the submit button gets properly serialized
@@ -515,7 +515,7 @@
       } else {
         // Slight timeout so that the submit button gets properly serialized
         setTimeout(function(){ rails.disableFormElements(form); }, 13);
-      }
+      }*/
     });
 
     $document.on('click.rails', rails.formInputClickSelector, function(event) {
